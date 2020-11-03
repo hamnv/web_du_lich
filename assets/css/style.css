@@ -1,0 +1,372 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+}
+a {
+  text-decoration: none !important;
+}
+button {
+  outline: none !important;
+}
+.header {
+  background-color: black;
+  color: orange;
+  font-size: 25px;
+  height: 60px;
+  position: relative;
+  padding: 5px 0px;
+}
+
+.header i {
+  margin: 0px 5px;
+}
+
+.header p {
+  display: inline;
+  font-weight: lighter;
+  font-size: 18px;
+  margin: 0px 5px;
+  color: white;
+}
+
+.header-icon {
+  position: absolute;
+  right: 50px;
+  top: 10px;
+}
+.header-icon i {
+  color: #fff;
+}
+.header a {
+  margin: 0px 5px;
+  color: rgb(223, 223, 215);
+}
+
+.nav-menu {
+  position: relative;
+  height: 80px;
+  background-color: rgb(240, 240, 240);
+}
+
+.sticky {
+  z-index: 4;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.logo {
+  position: absolute;
+  top: 15px;
+  left: 30px;
+}
+
+.nav-menu ul {
+  position: absolute;
+  left: 500px;
+  top: 0px;
+  list-style: none;
+  margin: 15px 0px;
+  padding-top: 10px;
+}
+
+.nav-menu li {
+  display: inline;
+  box-sizing: border-box;
+  padding: 25px 0px 30px 0px;
+  height: 80px;
+  transition: ease-in 2ms;
+}
+
+.nav-menu li:hover {
+  border-bottom: 2px solid orange;
+  transition: 0.5ms;
+  color: orange;
+  cursor: pointer;
+}
+
+.nav-menu a {
+  color: black;
+  margin: 0px 20px;
+  text-decoration: none !important;
+}
+
+.nav-menu li:hover a {
+  color: orange;
+}
+
+.nav-menu a:hover {
+  color: orange !important;
+}
+
+.nav-menu button {
+  position: absolute;
+  background-color: orange;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 20px;
+  top: 15px;
+  left: 1200px;
+  color: white;
+}
+
+.nav-menu button:hover {
+  background-color: blue;
+  transition: ease-in-out;
+}
+
+/*IMG SLIDE */
+#big-img {
+  background-color: aquamarine;
+  position: relative;
+  height: 600px;
+  width: 100%;
+  background-image: url("../../img/hobanviet.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#big-img h2 {
+  position: absolute;
+  left: 90px;
+  top: 160px;
+  color: white;
+  width: 300px;
+  text-align: center;
+}
+
+#big-img hr {
+  position: absolute;
+  top: 280px;
+  left: 90px;
+  width: 300px;
+  border-bottom: 2px solid white;
+}
+#big-img p {
+  position: absolute;
+  color: white;
+  width: 300px;
+  top: 320px;
+  left: 90px;
+}
+#big-img button {
+  font-weight: bold;
+  position: absolute;
+  top: 470px;
+  left: 170px;
+  height: 40px;
+  box-sizing: border-box;
+  padding: 5px 20px;
+  border: solid white 2px;
+  background: rgba(76, 175, 80, 0);
+  color: white;
+  border-radius: 50px;
+}
+#big-img button:hover {
+  background: orange;
+  font-weight: bold;
+}
+
+/*FIND FORM */
+.find-form {
+  z-index: 1;
+  position: absolute;
+  width: 450px;
+  height: 550px;
+  right: 150px;
+  top: 25px;
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.8);
+}
+.find-form h4 {
+  position: absolute;
+  top: 20px;
+  left: 25px;
+}
+.from-to {
+  position: absolute;
+  top: 70px;
+  left: 20px;
+}
+.find-group {
+  margin: 40px 20px;
+  display: block;
+}
+.find-group label {
+  margin: -20px 0px;
+  position: absolute;
+  font-size: 14px;
+}
+
+.find-group select {
+  cursor: pointer;
+  outline: none;
+  opacity: 1;
+  width: 380px;
+  height: 60px;
+  margin-top: 5px;
+  border-radius: 50px;
+  border: none;
+  background: rgba(255, 255, 255, 1);
+  padding: 5px 15px;
+}
+.find-from option .find-to option {
+  background-color: #fff;
+  border-radius: 50px;
+  color: black;
+}
+.find-form-detail {
+  position: absolute;
+  top: 300px;
+  left: 30px;
+}
+.form-detail label {
+  display: block;
+  font-size: 14px;
+}
+.form-detail {
+  display: inline-block;
+  margin: 0px 5px 0px 5px;
+}
+.form-detail input {
+  width: 180px;
+  outline: none;
+  box-sizing: border-box;
+  padding: 5px 20px;
+  height: 50px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.find-form button {
+  position: absolute;
+  background-color: orange !important;
+  width: 380px;
+  left: 35px !important;
+  bottom: 0px !important;
+  margin-top: 10px;
+  border: none !important;
+}
+.find-form button:hover {
+  cursor: pointer;
+  background-color: blue !important;
+}
+.hot-tour {
+  position: absolute;
+  left: 50px;
+  margin: 20px 10px;
+}
+.hot-tour h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 77px;
+  color: antiquewhite;
+  letter-spacing: 40px;
+}
+.btn-all-tour {
+  top: 20px;
+  clear: both;
+  position: absolute;
+  background-color: orange;
+  left: 1200px;
+  border-radius: 50px;
+  padding: 5px 15px;
+  border: none;
+  color: #fff;
+  height: 50px;
+}
+.btn-all-tour:hover {
+  background-color: blue;
+}
+.best-tour {
+  position: absolute;
+  top: 40px;
+  left: 70px;
+}
+.place-item {
+  top: 150px;
+  display: inline-block;
+  height: 250px;
+  width: 500px;
+  margin: 10px 0px;
+  overflow: hidden;
+}
+.place-item img {
+  height: 200px;
+  width: 350px;
+}
+.place-item img:hover {
+  transform: scale(2);
+  height: 200px;
+  width: 350px;
+}
+.on-hover {
+  display: none;
+  z-index: 1;
+  height: 200px;
+  width: 350px;
+  background: rgba(133, 150, 133, 0.5);
+  position: absolute;
+}
+.on-hover button {
+  z-index: 2;
+  display: none;
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  border-radius: 30px;
+  top: 75px;
+  left: 75px;
+  border: none;
+  color: #fff;
+  background-color: orange;
+}
+.on-hover button:hover {
+  background-color: blue;
+}
+
+.place-item:hover .on-hover,
+.place-item:hover .on-hover button {
+  display: block;
+  cursor: pointer;
+}
+.under-place {
+  padding: 10px 10px;
+  height: 50px;
+}
+.under-place a {
+  color: black;
+}
+.under-place span {
+  float: right;
+  color: orange;
+}
+.footer {
+  position: relative;
+  height: 120px;
+  top: 150px;
+  background-color: rgb(25, 23, 29);
+}
+.footer img {
+  position: absolute;
+  top: 20px;
+}
+.footer span {
+  position: absolute;
+  width: 500px;
+  left: 500px;
+  top: 25px;
+  color: #fff;
+}
+#jump-top {
+  display: none;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  border: none;
+  color: white;
+  width: 50px;
+  height: 50px;
+  background-color: orange;
+  border-radius: 5px;
+}
