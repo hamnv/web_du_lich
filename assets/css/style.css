@@ -169,7 +169,7 @@ button {
 
 /*FIND FORM */
 .find-form {
-  z-index: 1;
+  z-index: 7;
   position: absolute;
   width: 450px;
   height: 550px;
@@ -294,11 +294,22 @@ button {
 .place-item img {
   height: 200px;
   width: 350px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
 }
-.place-item img:hover {
+ .place-item:hover .place-item img  {
   transform: scale(2);
   height: 200px;
   width: 350px;
+  -webkit-transform:scale(1.25); /* Safari and Chrome */
+  -moz-transform:scale(1.25); /* Firefox */
+  -ms-transform:scale(1.25); /* IE 9 */
+  -o-transform:scale(1.25); /* Opera */
+   transform:scale(1.25);
 }
 .on-hover {
   display: none;
